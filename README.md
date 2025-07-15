@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+ 🌐 Personal Portfolio Website
 
 Welcome to my personal portfolio website 🙂 This project showcases my professional experience, technical skills, and recent projects. Built to provide a clean, responsive, and fast user experience, it serves as both a resume and a creative outlet.
 
