@@ -2,11 +2,11 @@
 
 Welcome to my personal portfolio website 🙂 This project showcases my professional experience, technical skills, and recent projects. Built to provide a clean, responsive, and fast user experience, it serves as both a resume and a creative outlet.
 
-## 🔗 Live Site
+🔗 Live Site
 
 [Visit the Portfolio]( https://bt12.netlify.app/ )
 
-## 📸 Features
+ 📸 Features
 
 - 🌟 Modern and minimalistic design
 - 📱 Fully responsive layout (mobile-friendly)
@@ -15,7 +15,7 @@ Welcome to my personal portfolio website 🙂 This project showcases my professi
 - 📫 Contact form with email integration
 - 🛠️ Technologies used clearly listed
 
-## 🧪 Tech Stack
+🧪 Tech Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript (or React/Vue/Svelte if applicable)
 - **Styling**: Tailwind CSS / SCSS / Styled-Components (choose one)
@@ -24,7 +24,7 @@ Welcome to my personal portfolio website 🙂 This project showcases my professi
   - EmailJS / Formspree for contact form
   - GSAP / Framer Motion for animations
 
-## 🚀 Getting Started
+🚀 Getting Started
 
 To run locally:
 
