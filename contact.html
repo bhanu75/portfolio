@@ -1,47 +1,137 @@
-<html>
-    <head>
-        <title> Bhanu Tripathi</title>
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <meta name="theme-color" content="#1bbc9b" />
-        <link href="contact.css" rel="stylesheet">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - Bhanu Tripathi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #1e1e1e;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 255, 200, 0.1);
+    }
+
+    h1, h4 {
+      text-align: center;
+      color: #00ffc3;
+    }
+
+    .input-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .styled-input {
+      position: relative;
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .styled-input.wide {
+      flex-basis: 100%;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 15px 10px;
+      background: #2a2a2a;
+      border: none;
+      border-bottom: 2px solid #444;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 6px;
+      outline: none;
+      transition: border 0.3s;
+    }
+
+    input:focus, textarea:focus {
+      border-bottom: 2px solid #00ffc3;
+    }
+
+    label {
+      position: absolute;
+      top: -10px;
+      left: 12px;
+      font-size: 14px;
+      color: #aaa;
+      background: #1e1e1e;
+      padding: 0 4px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .submit-btn {
+      background-color: #00ffc3;
+      color: #121212;
+      font-weight: bold;
+      padding: 14px 28px;
+      text-align: center;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s, transform 0.2s;
+      display: block;
+      margin: 30px auto 0;
+      width: fit-content;
+    }
+
+    .submit-btn:hover {
+      background-color: #00cfa1;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .styled-input {
+        flex-basis: 100%;
+      }
+    }
+  </style>
+</head>
 <body>
   <div class="container">
-	<div class="row">
-			<h1>contact us</h1>
-	</div>
-	<div class="row">
-			<h4 style="text-align:center">We'd love to hear from you!</h4>
-	</div>
-	<div class="row input-container">
-			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<input type="text" required />
-					<label>Name</label> 
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input">
-					<input type="text" required />
-					<label>Email</label> 
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input" style="float:right;">
-					<input type="text" required />
-					<label>Phone Number</label> 
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<textarea required></textarea>
-					<label>Message</label>
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<div class="btn-lrg submit-btn">Send Message</div>
-			</div>
-	</div>
+    <h1>Contact Us</h1>
+    <h4>We'd love to hear from you!</h4>
+
+    <div class="input-container">
+      <div class="styled-input wide">
+        <input type="text" required />
+        <label>Name</label>
+      </div>
+
+      <div class="styled-input">
+        <input type="email" required />
+        <label>Email</label>
+      </div>
+
+      <div class="styled-input">
+        <input type="text" required />
+        <label>Phone Number</label>
+      </div>
+
+      <div class="styled-input wide">
+        <textarea required></textarea>
+        <label>Message</label>
+      </div>
+
+      <div class="submit-btn">Send Message</div>
+    </div>
   </div>
 </body>
 </html>
