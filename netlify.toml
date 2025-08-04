@@ -1,8 +1,2 @@
 [build]
   publish = "."
-
-[[plugins]]
-  package = "netlify-plugin-inline-critical-css"
-
-  [plugins.inputs]
-  skip = true  # Plugin hata diya kyunki wo error de raha tha
