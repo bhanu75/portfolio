@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Bhanu Tripathi - Senior Frontend Developer | React Expert | 7+ Years Experience</title>
+    <meta name="description" content="Award-winning Senior Frontend Developer with 7+ years of experience. Specialized in React, TypeScript, and enterprise applications. Reduced workflow time by 35% and increased engagement by 20%.">
+    <meta name="keywords" content="frontend developer, react developer, senior developer, web development, typescript, javascript, portfolio">
+    <meta name="author" content="Bhanu Tripathi">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bt12.netlify.app/">
+    <meta property="og:title" content="Bhanu Tripathi - Senior Frontend Developer Portfolio">
+    <meta property="og:description" content="7+ years of proven impact: 35% faster workflows, 20% higher engagement. Award-winning React developer ready for MNC challenges.">
+    <meta property="og:image" content="https://bt12.netlify.app/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bt12.netlify.app/">
+    <meta property="twitter:title" content="Bhanu Tripathi - Senior Frontend Developer">
+    <meta property="twitter:description" content="Award-winning Frontend Developer specializing in React & TypeScript">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://bt12.netlify.app/">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS - Consider using a build process in production -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bhanu Tripathi",
+        "jobTitle": "Senior Frontend Developer",
+        "url": "https://bt12.netlify.app",
+        "email": "bhanutripathi91@gmail.com",
+        "sameAs": [
+            "https://github.com/bhanu75",
+            "https://linkedin.com/in/bhanutripathi"
+        ],
+        "knowsAbout": ["React", "TypeScript", "JavaScript", "TailwindCSS", "Redux", "Web Development"]
+    }
+    </script>
+    
+    <!-- External Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Inline Critical CSS for above-the-fold content -->
+    <style>
+        /* Critical CSS */
+        :root {
+            --color-primary: #2563EB;
+            --color-secondary: #7C3AED;
+            --color-accent: #F59E0B;
+            --color-success: #10B981;
+            --color-dark: #0F172A;
+            --color-light: #F8FAFC;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--color-dark);
+            background-color: var(--color-light);
+        }
+        
+        /* Dark mode */
+        .dark body {
+            color: var(--color-light);
+            background-color: var(--color-dark);
+        }
+        
+        /* Loading state */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--color-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+        
+        .loading.hidden {
+            display: none;
+        }
+        
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+        
+        /* Focus styles */
+        *:focus-visible {
+            outline: 2px solid var(--color-primary);
+            outline-offset: 2px;
+        }
+        
+        /* Skip to content link */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--color-primary);
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+        }
+        
+        .skip-to-content:focus {
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading-screen">
+        <div class="text-center">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+            <p class="mt-4 text-gray-600">Loading...</p>
+        </div>
+    </div>
+    
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+    
+    <!-- Header Navigation -->
+    <header role="banner" class="fixed top-0 w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-700">
+        <nav role="navigation" aria-label="Main navigation" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#home" aria-label="Bhanu Tripathi - Home" class="flex items-center space-x-2">
+                        <span class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">BT</span>
+                        <span class="hidden sm:inline-block text-sm font-medium text-success">🏆 Best Frontend Dev 2024</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:block">
+                    <ul class="flex items-baseline space-x-8">
+                        <li><a href="#home" class="nav-link hover:text-primary transition-colors font-medium">Home</a></li>
+                        <li><a href="#impact" class="nav-link hover:text-primary transition-colors font-medium">Impact</a></li>
+                        <li><a href="#projects" class="nav-link hover:text-primary transition-colors font-medium">Projects</a></li>
+                        <li><a href="#expertise" class="nav-link hover:text-primary transition-colors font-medium">Expertise</a></li>
+                        <li><a href="#contact" class="nav-link hover:text-primary transition-colors font-medium">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Controls -->
+                <div class="flex items-center space-x-4">
+                    <!-- Theme Toggle -->
+                    <button 
+                        id="theme-toggle" 
+                        class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-all"
+                        aria-label="Toggle dark mode"
+                        aria-pressed="false">
+                        <svg class="w-5 h-5 hidden dark:block" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+                        </svg>
+                        <svg class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                        </svg>
+                    </button>
+                    
+                    <!-- Mobile menu button -->
+                    <button 
+                        id="mobile-menu-toggle" 
+                        class="md:hidden p-2 rounded-lg bg-gray-200 dark:bg-gray-700"
+                        aria-label="Toggle mobile menu"
+                        aria-expanded="false"
+                        aria-controls="mobile-menu">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <nav id="mobile-menu" class="md:hidden hidden" aria-label="Mobile navigation">
+                <ul class="px-2 pt-2 pb-3 space-y-1">
+                    <li><a href="#home" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-200 dark:hover:bg-gray-700">Home</a></li>
+                    <li><a href="#impact" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-200 dark:hover:bg-gray-700">Impact</a></li>
+                    <li><a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-200 dark:hover:bg-gray-700">Projects</a></li>
+                    <li><a href="#expertise" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-200 dark:hover:bg-gray-700">Expertise</a></li>
+                    <li><a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-200 dark:hover:bg-gray-700">Contact</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section id="home" class="pt-24 min-h-screen flex items-center relative overflow-hidden" aria-labelledby="hero-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="mb-6 flex flex-wrap gap-3">
+                            <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-success/10 text-success border border-success/20">
+                                🏆 Best Frontend Developer 2024-25
+                            </span>
+                            <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20">
+                                🇮🇳 Available for MNC Roles
+                            </span>
+                        </div>
+                        
+                        <h1 id="hero-heading" class="text-5xl lg:text-6xl font-bold mb-6">
+                            Hi, I'm <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Bhanu Tripathi</span>
+                        </h1>
+                        
+                        <p class="text-xl text-gray-600 dark:text-gray-300 mb-8">
+                            Award-winning Senior Frontend Developer with 7+ years of experience building scalable, user-centric applications. 
+                            Specialized in React, TypeScript, and modern web technologies.
+                        </p>
+                        
+                        <div class="flex flex-wrap gap-4">
+                            <a href="#contact" class="inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors">
+                                Get In Touch
+                                <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </a>
+                            <a href="#projects" class="inline-flex items-center px-6 py-3 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 transition-colors">
+                                View Projects
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hidden lg:block">
+                        <!-- Hero illustration or image would go here -->
+                        <div class="relative">
+                            <div class="w-full h-96 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl animate-pulse"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Section -->
+        <section id="impact" class="py-24 bg-gray-50 dark:bg-gray-900" aria-labelledby="impact-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center mb-16">
+                    <h2 id="impact-heading" class="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Proven Impact
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                        Measurable results across enterprise applications and user experiences
+                    </p>
+                </header>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <article class="bg-white dark:bg-gray-800 rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-primary mb-2">35%</div>
+                        <h3 class="text-gray-900 dark:text-gray-100 font-semibold">Faster Workflows</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Optimized layouts & interactions</p>
+                    </article>
+                    
+                    <article class="bg-white dark:bg-gray-800 rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-secondary mb-2">20%</div>
+                        <h3 class="text-gray-900 dark:text-gray-100 font-semibold">Higher Engagement</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Better navigation & animations</p>
+                    </article>
+                    
+                    <article class="bg-white dark:bg-gray-800 rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-accent mb-2">500+</div>
+                        <h3 class="text-gray-900 dark:text-gray-100 font-semibold">Active Users</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Across deployed projects</p>
+                    </article>
+                    
+                    <article class="bg-white dark:bg-gray-800 rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
+                        <div class="text-4xl font-bold text-success mb-2">70%</div>
+                        <h3 class="text-gray-900 dark:text-gray-100 font-semibold">Less Manual Work</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Through automation</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-24 bg-white dark:bg-gray-950" aria-labelledby="projects-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center mb-16">
+                    <h2 id="projects-heading" class="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Featured Projects
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                        Real-world applications with measurable business impact
+                    </p>
+                </header>
+                
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <!-- Project Card 1 -->
+                    <article class="bg-gray-50 dark:bg-gray-800 rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+                        <header class="flex items-center justify-between mb-6">
+                            <div class="w-16 h-16 bg-gradient-to-br from-orange-400 to-yellow-500 rounded-2xl flex items-center justify-center">
+                                <span class="text-2xl" aria-hidden="true">⚡</span>
+                            </div>
+                            <span class="text-sm font-semibold text-orange-500 bg-orange-50 dark:bg-orange-900/20 px-3 py-1 rounded-full">
+                                IoT Dashboard
+                            </span>
+                        </header>
+                        
+                        <h3 class="text-2xl font-bold mb-4">Bitcoin Mine Control Dashboard</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            Comprehensive control and monitoring dashboard for large-scale Bitcoin mining operations (~1 MW), 
+                            featuring automated power management and remote monitoring capabilities.
+                        </p>
+                        
+                        <ul class="space-y-3 mb-6" role="list">
+                            <li class="flex items-center text-sm">
+                                <span class="text-success mr-3" aria-hidden="true">📈</span>
+                                <span><strong>70% reduction</strong> in manual intervention needs</span>
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <span class="text-primary mr-3" aria-hidden="true">⚙️</span>
+                                <span>Automated power curtailment during peak hours</span>
+                            </li>
+                            <li class="flex items-center text-sm">
+                                <span class="text-secondary mr-3" aria-hidden="true">🔔</span>
+                                <span>Real-time notifications for critical alerts</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="flex flex-wrap gap-2 mb-6" role="list" aria-label="Technologies used">
+                            <span class="text-xs px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full">Python</span>
+                            <span class="text-xs px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full">Raspberry Pi</span>
+                            <span class="text-xs px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full">IoT Integration</span>
+                        </div>
+                        
+                        <div class="flex gap-4">
+                            <a href="#" class="flex-1 text-center bg-primary text-white px-6 py-3 rounded-xl font-semibold hover:bg-primary/90 transition-colors">
+                                View Details
+                            </a>
+                            <a href="https://github.com/bhanu75" class="px-6 py-3 border border-primary text-primary rounded-xl font-semibold hover:bg-primary/10 transition-colors" aria-label="View on GitHub">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">GitHub</p>
+                                    <a href="https://github.com/bhanu75" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">
+                                        github.com/bhanu75
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mr-4">
+                                    <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">LinkedIn</p>
+                                    <a href="https://linkedin.com/in/bhanutripathi" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">
+                                        Connect on LinkedIn
+                                    </a>
+                                </div>
+                            </div>
+                        </address>
+                        
+                        <div class="mt-8 p-6 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl border border-primary/20">
+                            <h4 class="text-xl font-bold mb-4">Open for Opportunities</h4>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4">
+                                I'm actively seeking frontend development roles at innovative MNC companies. 
+                                Let's discuss how my 7+ years of experience can contribute to your team's success.
+                            </p>
+                            <div class="flex flex-wrap gap-3">
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-success/10 text-success border border-success/20">
+                                    🎯 MNC Ready
+                                </span>
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20">
+                                    🚀 Available Now
+                                </span>
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-secondary/10 text-secondary border border-secondary/20">
+                                    🏆 Award Winner
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-8">Send a Message</h3>
+                        <form id="contact-form" class="space-y-6" novalidate>
+                            <div>
+                                <label for="name" class="block text-sm font-medium mb-2">
+                                    Your Name <span class="text-red-500" aria-label="required">*</span>
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name"
+                                    required
+                                    aria-required="true"
+                                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                                    placeholder="John Doe">
+                                <span class="hidden text-red-500 text-sm mt-1" role="alert" id="name-error">Please enter your name</span>
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block text-sm font-medium mb-2">
+                                    Email Address <span class="text-red-500" aria-label="required">*</span>
+                                </label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email"
+                                    required
+                                    aria-required="true"
+                                    aria-describedby="email-hint"
+                                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                                    placeholder="john@example.com">
+                                <span id="email-hint" class="text-gray-500 text-sm mt-1">We'll never share your email</span>
+                                <span class="hidden text-red-500 text-sm mt-1" role="alert" id="email-error">Please enter a valid email</span>
+                            </div>
+                            
+                            <div>
+                                <label for="company" class="block text-sm font-medium mb-2">
+                                    Company <span class="text-gray-500 text-sm">(Optional)</span>
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="company" 
+                                    name="company"
+                                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                                    placeholder="Your Company">
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block text-sm font-medium mb-2">
+                                    Message <span class="text-red-500" aria-label="required">*</span>
+                                </label>
+                                <textarea 
+                                    id="message" 
+                                    name="message"
+                                    rows="5"
+                                    required
+                                    aria-required="true"
+                                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors resize-none"
+                                    placeholder="Tell me about your project..."></textarea>
+                                <span class="hidden text-red-500 text-sm mt-1" role="alert" id="message-error">Please enter a message</span>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <input 
+                                    type="checkbox" 
+                                    id="privacy" 
+                                    name="privacy"
+                                    required
+                                    aria-required="true"
+                                    class="mt-1 mr-3 rounded border-gray-300 text-primary focus:ring-primary">
+                                <label for="privacy" class="text-sm text-gray-600 dark:text-gray-400">
+                                    I agree to the processing of my personal data in accordance with the 
+                                    <a href="#" class="text-primary hover:underline">Privacy Policy</a>
+                                </label>
+                            </div>
+                            
+                            <button 
+                                type="submit" 
+                                class="w-full bg-gradient-to-r from-primary to-secondary text-white font-bold py-4 px-8 rounded-xl hover:shadow-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                                id="submit-button">
+                                <span id="button-text">Send Message</span>
+                                <span id="button-loading" class="hidden">
+                                    <svg class="inline-block w-5 h-5 animate-spin mr-2" fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                    </svg>
+                                    Sending...
+                                </span>
+                            </button>
+                            
+                            <div id="form-success" class="hidden p-4 bg-success/10 border border-success/20 rounded-lg text-success" role="alert">
+                                ✅ Message sent successfully! I'll get back to you soon.
+                            </div>
+                            
+                            <div id="form-error" class="hidden p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg text-red-600 dark:text-red-400" role="alert">
+                                ❌ There was an error sending your message. Please try again.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo" class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Bhanu Tripathi
+                    </p>
+                    <p class="text-gray-400 mt-2">Senior Frontend Developer • Award Winner 2024-25</p>
+                </div>
+                
+                <nav aria-label="Social links" class="flex space-x-6">
+                    <a href="https://github.com/bhanu75" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="text-gray-400 hover:text-white transition-colors"
+                       aria-label="GitHub Profile">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="mailto:bhanutripathi91@gmail.com" 
+                       class="text-gray-400 hover:text-white transition-colors"
+                       aria-label="Email">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/bhanutripathi" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="text-gray-400 hover:text-white transition-colors"
+                       aria-label="LinkedIn Profile">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </nav>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; <span id="current-year">2025</span> Bhanu Tripathi. All rights reserved.</p>
+                <p class="mt-2 text-sm">
+                    Built with <span aria-label="love">❤️</span> using modern web technologies
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="app.js" defer></script>
+    
+    <!-- Inline JavaScript for Critical Functionality -->
+    <script>
+        // Immediate Dark Mode Setup (prevents flash)
+        (function() {
+            const theme = localStorage.getItem('theme') || 'light';
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+        
+        // Remove loading screen once DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            const loadingScreen = document.getElementById('loading-screen');
+            if (loadingScreen) {
+                setTimeout(() => {
+                    loadingScreen.classList.add('hidden');
+                }, 500);
+            }
+            
+            // Update current year
+            const yearElement = document.getElementById('current-year');
+            if (yearElement) {
+                yearElement.textContent = new Date().getFullYear();
+            }
+        });
+        
+        // Core App Functionality
+        class PortfolioApp {
+            constructor() {
+                this.init();
+            }
+            
+            init() {
+                this.setupThemeToggle();
+                this.setupMobileMenu();
+                this.setupSmoothScroll();
+                this.setupFormValidation();
+                this.setupIntersectionObserver();
+            }
+            
+            setupThemeToggle() {
+                const themeToggle = document.getElementById('theme-toggle');
+                if (!themeToggle) return;
+                
+                themeToggle.addEventListener('click', () => {
+                    const html = document.documentElement;
+                    const isDark = html.classList.toggle('dark');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                    themeToggle.setAttribute('aria-pressed', isDark.toString());
+                });
+            }
+            
+            setupMobileMenu() {
+                const mobileToggle = document.getElementById('mobile-menu-toggle');
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (!mobileToggle || !mobileMenu) return;
+                
+                mobileToggle.addEventListener('click', () => {
+                    const isExpanded = mobileMenu.classList.toggle('hidden');
+                    mobileToggle.setAttribute('aria-expanded', (!isExpanded).toString());
+                });
+                
+                // Close mobile menu when clicking on links
+                const mobileLinks = mobileMenu.querySelectorAll('a');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        mobileToggle.setAttribute('aria-expanded', 'false');
+                    });
+                });
+            }
+            
+            setupSmoothScroll() {
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        const targetId = this.getAttribute('href');
+                        if (targetId === '#') return;
+                        
+                        const target = document.querySelector(targetId);
+                        if (target) {
+                            const offset = 80; // Account for fixed header
+                            const targetPosition = target.offsetTop - offset;
+                            
+                            window.scrollTo({
+                                top: targetPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                    });
+                });
+            }
+            
+            setupFormValidation() {
+                const form = document.getElementById('contact-form');
+                if (!form) return;
+                
+                form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    
+                    // Reset error states
+                    this.resetFormErrors();
+                    
+                    // Validate form
+                    const isValid = this.validateForm(form);
+                    if (!isValid) return;
+                    
+                    // Show loading state
+                    this.setFormLoading(true);
+                    
+                    try {
+                        // In production, this would send to a backend API
+                        await this.submitForm(form);
+                        
+                        // Show success message
+                        this.showFormSuccess();
+                        form.reset();
+                    } catch (error) {
+                        // Show error message
+                        this.showFormError();
+                    } finally {
+                        this.setFormLoading(false);
+                    }
+                });
+                
+                // Real-time validation
+                const inputs = form.querySelectorAll('input[required], textarea[required]');
+                inputs.forEach(input => {
+                    input.addEventListener('blur', () => {
+                        this.validateField(input);
+                    });
+                });
+            }
+            
+            validateForm(form) {
+                const formData = new FormData(form);
+                let isValid = true;
+                
+                // Validate name
+                const name = formData.get('name');
+                if (!name || name.trim().length < 2) {
+                    this.showFieldError('name', 'Please enter a valid name');
+                    isValid = false;
+                }
+                
+                // Validate email
+                const email = formData.get('email');
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!email || !emailRegex.test(email)) {
+                    this.showFieldError('email', 'Please enter a valid email address');
+                    isValid = false;
+                }
+                
+                // Validate message
+                const message = formData.get('message');
+                if (!message || message.trim().length < 10) {
+                    this.showFieldError('message', 'Please enter a message (at least 10 characters)');
+                    isValid = false;
+                }
+                
+                // Validate privacy checkbox
+                const privacy = formData.get('privacy');
+                if (!privacy) {
+                    alert('Please accept the privacy policy to continue');
+                    isValid = false;
+                }
+                
+                return isValid;
+            }
+            
+            validateField(field) {
+                const value = field.value.trim();
+                const fieldName = field.name;
+                
+                if (field.hasAttribute('required') && !value) {
+                    this.showFieldError(fieldName, `Please enter your ${fieldName}`);
+                    return false;
+                }
+                
+                if (field.type === 'email') {
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(value)) {
+                        this.showFieldError(fieldName, 'Please enter a valid email address');
+                        return false;
+                    }
+                }
+                
+                this.hideFieldError(fieldName);
+                return true;
+            }
+            
+            showFieldError(fieldName, message) {
+                const errorElement = document.getElementById(`${fieldName}-error`);
+                const inputElement = document.getElementById(fieldName);
+                
+                if (errorElement) {
+                    errorElement.textContent = message;
+                    errorElement.classList.remove('hidden');
+                }
+                
+                if (inputElement) {
+                    inputElement.classList.add('border-red-500');
+                    inputElement.setAttribute('aria-invalid', 'true');
+                    inputElement.setAttribute('aria-describedby', `${fieldName}-error`);
+                }
+            }
+            
+            hideFieldError(fieldName) {
+                const errorElement = document.getElementById(`${fieldName}-error`);
+                const inputElement = document.getElementById(fieldName);
+                
+                if (errorElement) {
+                    errorElement.classList.add('hidden');
+                }
+                
+                if (inputElement) {
+                    inputElement.classList.remove('border-red-500');
+                    inputElement.setAttribute('aria-invalid', 'false');
+                }
+            }
+            
+            resetFormErrors() {
+                const errors = document.querySelectorAll('[role="alert"]');
+                errors.forEach(error => error.classList.add('hidden'));
+                
+                const inputs = document.querySelectorAll('.border-red-500');
+                inputs.forEach(input => {
+                    input.classList.remove('border-red-500');
+                    input.setAttribute('aria-invalid', 'false');
+                });
+            }
+            
+            setFormLoading(isLoading) {
+                const submitButton = document.getElementById('submit-button');
+                const buttonText = document.getElementById('button-text');
+                const buttonLoading = document.getElementById('button-loading');
+                
+                if (isLoading) {
+                    submitButton.disabled = true;
+                    buttonText.classList.add('hidden');
+                    buttonLoading.classList.remove('hidden');
+                } else {
+                    submitButton.disabled = false;
+                    buttonText.classList.remove('hidden');
+                    buttonLoading.classList.add('hidden');
+                }
+            }
+            
+            async submitForm(form) {
+                const formData = new FormData(form);
+                
+                // Simulate API call (replace with actual backend endpoint)
+                return new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        // For demo purposes, using mailto as fallback
+                        const subject = `Portfolio Contact from ${formData.get('name')}`;
+                        const body = `
+                            Name: ${formData.get('name')}
+                            Email: ${formData.get('email')}
+                            Company: ${formData.get('company') || 'Not specified'}
+                            Message: ${formData.get('message')}
+                        `;
+                        
+                        window.location.href = `mailto:bhanutripathi91@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                        resolve();
+                    }, 1500);
+                });
+            }
+            
+            showFormSuccess() {
+                const successElement = document.getElementById('form-success');
+                if (successElement) {
+                    successElement.classList.remove('hidden');
+                    setTimeout(() => {
+                        successElement.classList.add('hidden');
+                    }, 5000);
+                }
+            }
+            
+            showFormError() {
+                const errorElement = document.getElementById('form-error');
+                if (errorElement) {
+                    errorElement.classList.remove('hidden');
+                    setTimeout(() => {
+                        errorElement.classList.add('hidden');
+                    }, 5000);
+                }
+            }
+            
+            setupIntersectionObserver() {
+                const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+                
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animate-in');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, observerOptions);
+                
+                // Observe all sections
+                const sections = document.querySelectorAll('section');
+                sections.forEach(section => observer.observe(section));
+            }
+        }
+        
+        // Initialize app when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                new PortfolioApp();
+            });
+        } else {
+            new PortfolioApp();
+        }
+    </script>
+</body>
+</html> 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- Additional project cards would follow the same pattern -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise" class="py-24 bg-gray-50 dark:bg-gray-900" aria-labelledby="expertise-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center mb-16">
+                    <h2 id="expertise-heading" class="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Technical Expertise
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                        Comprehensive skill set with deep expertise in modern frontend technologies
+                    </p>
+                </header>
+                
+                <!-- Skills grid would go here -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-24 bg-white dark:bg-gray-950" aria-labelledby="contact-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center mb-16">
+                    <h2 id="contact-heading" class="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Let's Build Together
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                        Ready to contribute to your next big project. Let's discuss how I can help drive your frontend initiatives forward.
+                    </p>
+                </header>
+                
+                <div class="grid lg:grid-cols-2 gap-16">
+                    <!-- Contact Information -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-8">Get in Touch</h3>
+                        <address class="not-italic space-y-6">
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
+                                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Email</p>
+                                    <a href="mailto:bhanutripathi91@gmail.com" class="text-primary hover:underline">
+                                        bhanutripathi91@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mr-4">
+                                    <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">GitHub</p>
+                                    <a href="https://github.com/bhanu75" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">
+                                        github.com/bhanu75
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mr-4">
+                                    <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">LinkedIn</p>
+                                    <a href="https://linkedin.com/in/bhanutripathi" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">
+                                        Connect on LinkedIn
+                                    </a>
+                                </div>
+                            </div>
+                        </address>
+                        
+                        <div class="mt-8 p-6 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl border border-primary/20">
+                            <h4 class="text-xl font-bold mb-4">Open for Opportunities</h4>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4">
+                                I'm actively seeking frontend development roles at innovative MNC companies. 
+                                Let's discuss how my 7+ years of experience can contribute to your team's success.
+                            </p>
+                            <div class="flex flex-wrap gap-3">
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-success/10 text-success border border-success/20">
+                                    🎯 MNC Ready
+                                </span>
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20">
+                                    🚀 Available Now
+                                </span>
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-secondary/10 text-secondary border border-secondary/20">
+                                    🏆 Award Winner
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-8">Send a Message</h3>
+                        <form id="contact-form" class="space-y-6" novalidate>
+                            <div>
+                                <label for="name" class="block text-sm font-medium mb-2">
+                                    Your Name <span class="text-red-500" aria-label="required">*</span>
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name"
+                                    required
+                                    aria-required="true"
+                                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                                    placeholder="John Doe">
+                                <span class="hidden text-red-500 text-sm mt-1" role="alert" id="name-error">Please enter your name</span>
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block text-sm font-medium mb-2">
+                                    Email Address <span class="text-red-500" aria-label="required">*</span>
+                                </label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email"
+                                    required
+                                    aria-required="true"
+                                    aria-describedby="email-hint"
+                                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                                    placeholder="john@example.com">
+                                <span id="email-hint" class="text-gray-500 text-sm mt-1">We'll never share your email</span>
+                                <span class="hidden text-red-500 text-sm mt-1" role="alert" id="email-error">Please enter a valid email</span>
+                            </div>
+                            
+                            <div>
+                                <label for="company" class="block text-sm font-medium mb-2">
+                                    Company <span class="text-gray-500 text-sm">(Optional)</span>
+                                </label>
+                                <input 
+                                    type="text" 
+                                    id="company" 
+                                    name="company"
+                                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                                    placeholder="Your Company">
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block text-sm font-medium mb-2">
+                                    Message <span class="text-red-500" aria-label="required">*</span>
+                                </label>
+                                <textarea 
+                                    id="message" 
+                                    name="message"
+                                    rows="5"
+                                    required
+                                    aria-required="true"
+                                    class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors resize-none"
+                                    placeholder="Tell me about your project..."></textarea>
+                                <span class="hidden text-red-500 text-sm mt-1" role="alert" id="message-error">Please enter a message</span>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <input 
+                                    type="checkbox" 
+                                    id="privacy" 
+                                    name="privacy"
+                                    required
+                                    aria-required="true"
+                                    class="mt-1 mr-3 rounded border-gray-300 text-primary focus:ring-primary">
+                                <label for="privacy" class="text-sm text-gray-600 dark:text-gray-400">
+                                    I agree to the processing of my personal data in accordance with the 
+                                    <a href="/privacy-policy" class="text-primary hover:underline">Privacy Policy</a>
+                                </label>
+                            </div>
+                            
+                            <button 
+                                type="submit" 
+                                class="w-full bg-gradient-to-r from-primary to-secondary text-white font-bold py-4 px-8 rounded-xl hover:shadow-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                                id="submit-button">
+                                <span id="button-text">Send Message</span>
+                                <span id="button-loading" class="hidden">
+                                    <svg class="inline-block w-5 h-5 animate-spin mr-2" fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                    </svg>
+                                    Sending...
+                                </span>
+                            </button>
+                            
+                            <div id="form-success" class="hidden p-4 bg-success/10 border border-success/20 rounded-lg text-success" role="alert">
+                                ✅ Message sent successfully! I'll get back to you soon.
+                            </div>
+                            
+                            <div id="form-error" class="hidden p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg text-red-600 dark:text-red-400" role="alert">
+                                ❌ There was an error sending your message. Please try again.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo" class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Bhanu Tripathi
+                    </p>
+                    <p class="text-gray-400 mt-2">Senior Frontend Developer • Award Winner 2024-25</p>
+                </div>
+                
+                <nav aria-label="Social links" class="flex space-x-6">
+                    <a href="https://github.com/bhanu75" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="text-gray-400 hover:text-white transition-colors"
+                       aria-label="GitHub Profile">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="mailto:bhanutripathi91@gmail.com" 
+                       class="text-gray-400 hover:text-white transition-colors"
+                       aria-label="Email">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/bhanutripathi" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="text-gray-400 hover:text-white transition-colors"
+                       aria-label="LinkedIn Profile">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </nav>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; <span id="current-year">2025</span> Bhanu Tripathi. All rights reserved.</p>
+                <p class="mt-2 text-sm">
+                    Built with <span aria-label="love">❤️</span> using modern web technologies
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button 
+        id="back-to-top" 
+        class="fixed bottom-8 right-8 p-3 bg-primary text-white rounded-full shadow-lg hover:bg-primary/90 transition-all duration-300 opacity-0 invisible"
+        aria-label="Back to top">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <!-- Tailwind Config Script -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563EB',
+                        secondary: '#7C3AED',
+                        accent: '#F59E0B',
+                        success: '#10B981',
+                        dark: '#0F172A',
+                        light: '#F8FAFC',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                        'mono': ['JetBrains Mono', 'monospace'],
+                    },
+                    animation: {
+                        'spin': 'spin 1s linear infinite',
+                        'ping': 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
+                        'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce': 'bounce 1s infinite',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Main Application Script -->
+    <script>
+        // Immediate Dark Mode Setup (prevents flash)
+        (function() {
+            const theme = localStorage.getItem('theme') || 'light';
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+
+        // Portfolio Application Class
+        class PortfolioApp {
+            constructor() {
+                this.init();
+            }
+
+            init() {
+                this.setupThemeToggle();
+                this.setupMobileMenu();
+                this.setupSmoothScroll();
+                this.setupFormValidation();
+                this.setupBackToTop();
+                this.updateCurrentYear();
+                this.setupIntersectionObserver();
+            }
+
+            setupThemeToggle() {
+                const themeToggle = document.getElementById('theme-toggle');
+                if (!themeToggle) return;
+
+                themeToggle.addEventListener('click', () => {
+                    const html = document.documentElement;
+                    const isDark = html.classList.toggle('dark');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                    themeToggle.setAttribute('aria-pressed', isDark.toString());
+                });
+            }
+
+            setupMobileMenu() {
+                const mobileToggle = document.getElementById('mobile-menu-toggle');
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (!mobileToggle || !mobileMenu) return;
+
+                mobileToggle.addEventListener('click', () => {
+                    const isHidden = mobileMenu.classList.toggle('hidden');
+                    mobileToggle.setAttribute('aria-expanded', (!isHidden).toString());
+                });
+
+                // Close mobile menu when clicking on links
+                const mobileLinks = mobileMenu.querySelectorAll('a');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        mobileToggle.setAttribute('aria-expanded', 'false');
+                    });
+                });
+
+                // Close mobile menu when clicking outside
+                document.addEventListener('click', (e) => {
+                    if (!mobileMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+                        mobileMenu.classList.add('hidden');
+                        mobileToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            }
+
+            setupSmoothScroll() {
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        const targetId = this.getAttribute('href');
+                        if (targetId === '#') return;
+
+                        const target = document.querySelector(targetId);
+                        if (target) {
+                            const offset = 80; // Account for fixed header
+                            const targetPosition = target.offsetTop - offset;
+
+                            window.scrollTo({
+                                top: targetPosition,
+                                behavior: 'smooth'
+                            });
+
+                            // Update URL without jumping
+                            history.pushState(null, null, targetId);
+                        }
+                    });
+                });
+            }
+
+            setupFormValidation() {
+                const form = document.getElementById('contact-form');
+                if (!form) return;
+
+                // Add input event listeners for real-time validation
+                const inputs = form.querySelectorAll('input[required], textarea[required]');
+                inputs.forEach(input => {
+                    input.addEventListener('blur', () => this.validateField(input));
+                    input.addEventListener('input', () => {
+                        if (input.classList.contains('border-red-500')) {
+                            this.validateField(input);
+                        }
+                    });
+                });
+
+                // Form submission
+                form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+
+                    // Reset error states
+                    this.resetFormErrors();
+
+                    // Validate form
+                    const isValid = this.validateForm(form);
+                    if (!isValid) return;
+
+                    // Show loading state
+                    this.setFormLoading(true);
+
+                    try {
+                        // Simulate API call
+                        await this.submitForm(form);
+                        
+                        // Show success message
+                        this.showFormSuccess();
+                        form.reset();
+                    } catch (error) {
+                        // Show error message
+                        this.showFormError();
+                        console.error('Form submission error:', error);
+                    } finally {
+                        this.setFormLoading(false);
+                    }
+                });
+            }
+
+            validateForm(form) {
+                const formData = new FormData(form);
+                let isValid = true;
+
+                // Validate name
+                const name = formData.get('name');
+                if (!name || name.trim().length < 2) {
+                    this.showFieldError('name', 'Please enter a valid name (at least 2 characters)');
+                    isValid = false;
+                }
+
+                // Validate email
+                const email = formData.get('email');
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!email || !emailRegex.test(email)) {
+                    this.showFieldError('email', 'Please enter a valid email address');
+                    isValid = false;
+                }
+
+                // Validate message
+                const message = formData.get('message');
+                if (!message || message.trim().length < 10) {
+                    this.showFieldError('message', 'Please enter a message (at least 10 characters)');
+                    isValid = false;
+                }
+
+                // Validate privacy checkbox
+                const privacy = formData.get('privacy');
+                if (!privacy) {
+                    alert('Please accept the privacy policy to continue');
+                    isValid = false;
+                }
+
+                return isValid;
+            }
+
+            validateField(field) {
+                const value = field.value.trim();
+                const fieldName = field.name;
+
+                if (field.hasAttribute('required') && !value) {
+                    this.showFieldError(fieldName, `Please enter your ${fieldName}`);
+                    return false;
+                }
+
+                if (field.type === 'email') {
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(value)) {
+                        this.showFieldError(fieldName, 'Please enter a valid email address');
+                        return false;
+                    }
+                }
+
+                if (fieldName === 'name' && value.length < 2) {
+                    this.showFieldError(fieldName, 'Name must be at least 2 characters');
+                    return false;
+                }
+
+                if (fieldName === 'message' && value.length < 10) {
+                    this.showFieldError(fieldName, 'Message must be at least 10 characters');
+                    return false;
+                }
+
+                this.hideFieldError(fieldName);
+                return true;
+            }
+
+            showFieldError(fieldName, message) {
+                const errorElement = document.getElementById(`${fieldName}-error`);
+                const inputElement = document.getElementById(fieldName);
+
+                if (errorElement) {
+                    errorElement.textContent = message;
+                    errorElement.classList.remove('hidden');
+                }
+
+                if (inputElement) {
+                    inputElement.classList.add('border-red-500');
+                    inputElement.setAttribute('aria-invalid', 'true');
+                    inputElement.setAttribute('aria-describedby', `${fieldName}-error`);
+                }
+            }
+
+            hideFieldError(fieldName) {
+                const errorElement = document.getElementById(`${fieldName}-error`);
+                const inputElement = document.getElementById(fieldName);
+
+                if (errorElement) {
+                    errorElement.classList.add('hidden');
+                }
+
+                if (inputElement) {
+                    inputElement.classList.remove('border-red-500');
+                    inputElement.setAttribute('aria-invalid', 'false');
+                    inputElement.removeAttribute('aria-describedby');
+                }
+            }
+
+            resetFormErrors() {
+                const errors = document.querySelectorAll('[role="alert"]');
+                errors.forEach(error => error.classList.add('hidden'));
+
+                const inputs = document.querySelectorAll('.border-red-500');
+                inputs.forEach(input => {
+                    input.classList.remove('border-red-500');
+                    input.setAttribute('aria-invalid', 'false');
+                    input.removeAttribute('aria-describedby');
+                });
+            }
+
+            setFormLoading(isLoading) {
+                const submitButton = document.getElementById('submit-button');
+                const buttonText = document.getElementById('button-text');
+                const buttonLoading = document.getElementById('button-loading');
+
+                if (isLoading) {
+                    submitButton.disabled = true;
+                    buttonText.classList.add('hidden');
+                    buttonLoading.classList.remove('hidden');
+                } else {
+                    submitButton.disabled = false;
+                    buttonText.classList.remove('hidden');
+                    buttonLoading.classList.add('hidden');
+                }
+            }
+
+            async submitForm(form) {
+                const formData = new FormData(form);
+                
+                // In production, replace with actual API endpoint
+                return new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        // For demo purposes, using mailto as fallback
+                        const subject = `Portfolio Contact from ${formData.get('name')}`;
+                        const body = `
+Name: ${formData.get('name')}
+Email: ${formData.get('email')}
+Company: ${formData.get('company') || 'Not specified'}
+Message: ${formData.get('message')}
+                        `.trim();
+                        
+                        const mailtoLink = `mailto:bhanutripathi91@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                        window.location.href = mailtoLink;
+                        resolve();
+                    }, 1500);
+                });
+            }
+
+            showFormSuccess() {
+                const successElement = document.getElementById('form-success');
+                if (successElement) {
+                    successElement.classList.remove('hidden');
+                    successElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    setTimeout(() => {
+                        successElement.classList.add('hidden');
+                    }, 5000);
+                }
+            }
+
+            showFormError() {
+                const errorElement = document.getElementById('form-error');
+                if (errorElement) {
+                    errorElement.classList.remove('hidden');
+                    errorElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    setTimeout(() => {
+                        errorElement.classList.add('hidden');
+                    }, 5000);
+                }
+            }
+
+            setupBackToTop() {
+                const backToTopButton = document.getElementById('back-to-top');
+                if (!backToTopButton) return;
+
+                // Show/hide button based on scroll position
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY >300) {
+                        backToTopButton.classList.remove('opacity-0', 'invisible');
+                        backToTopButton.classList.add('opacity-100', 'visible');
+                    } else {
+                        backToTopButton.classList.add('opacity-0', 'invisible');
+                        backToTopButton.classList.remove('opacity-100', 'visible');
+                    }
+                });
+
+                // Scroll to top when clicked
+                backToTopButton.addEventListener('click', () => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+
+            updateCurrentYear() {
+                const yearElement = document.getElementById('current-year');
+                if (yearElement) {
+                    yearElement.textContent = new Date().getFullYear();
+                }
+            }
+
+            setupIntersectionObserver() {
+                const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animate-in');
+                            // Add specific animations based on data attributes
+                            if (entry.target.dataset.animation) {
+                                entry.target.classList.add(entry.target.dataset.animation);
+                            }
+                        }
+                    });
+                }, observerOptions);
+
+                // Observe all sections and animated elements
+                const animatedElements = document.querySelectorAll('section, [data-animation]');
+                animatedElements.forEach(element => observer.observe(element));
+
+                // Observe metric cards for number animation
+                const metricCards = document.querySelectorAll('.metric-value');
+                metricCards.forEach(card => {
+                    observer.observe(card);
+                });
+            }
+
+            // Additional utility methods
+            debounce(func, wait) {
+                let timeout;
+                return function executedFunction(...args) {
+                    const later = () => {
+                        clearTimeout(timeout);
+                        func(...args);
+                    };
+                    clearTimeout(timeout);
+                    timeout = setTimeout(later, wait);
+                };
+            }
+
+            throttle(func, limit) {
+                let inThrottle;
+                return function(...args) {
+                    if (!inThrottle) {
+                        func.apply(this, args);
+                        inThrottle = true;
+                        setTimeout(() => inThrottle = false, limit);
+                    }
+                };
+            }
+        }
+
+        // Initialize app when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                new PortfolioApp();
+            });
+        } else {
+            new PortfolioApp();
+        }
+
+        // Performance monitoring
+        window.addEventListener('load', () => {
+            // Log performance metrics
+            if ('performance' in window) {
+                const perfData = window.performance.timing;
+                const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+                console.log(`Page Load Time: ${pageLoadTime}ms`);
+
+                // Send to analytics if available
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'page_load_time', {
+                        'event_category': 'Performance',
+                        'value': pageLoadTime
+                    });
+                }
+            }
+        });
+
+        // Handle offline/online status
+        window.addEventListener('online', () => {
+            console.log('Connection restored');
+            // You could show a notification here
+        });
+
+        window.addEventListener('offline', () => {
+            console.log('Connection lost');
+            // You could show a notification here
+        });
+
+        // Progressive Enhancement: Add advanced features if supported
+        if ('IntersectionObserver' in window) {
+            // Already handled in setupIntersectionObserver
+        } else {
+            // Fallback for older browsers
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.add('animate-in');
+            });
+        }
+
+        // Add keyboard navigation support
+        document.addEventListener('keydown', (e) => {
+            // Press '/' to focus search (if implemented)
+            if (e.key === '/' && !e.ctrlKey && !e.metaKey) {
+                const searchInput = document.getElementById('search');
+                if (searchInput && document.activeElement !== searchInput) {
+                    e.preventDefault();
+                    searchInput.focus();
+                }
+            }
+
+            // Press 'Escape' to close mobile menu
+            if (e.key === 'Escape') {
+                const mobileMenu = document.getElementById('mobile-menu');
+                const mobileToggle = document.getElementById('mobile-menu-toggle');
+                if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    mobileToggle.setAttribute('aria-expanded', 'false');
+                }
+            }
+        });
+
+        // Service Worker Registration (for PWA support)
+        if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful:', registration.scope);
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed:', err);
+                    });
+            });
+        }
+
+        // Analytics Event Tracking
+        function trackEvent(category, action, label = null, value = null) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', action, {
+                    'event_category': category,
+                    'event_label': label,
+                    'value': value
+                });
+            }
+            // Fallback to console for development
+            console.log('Event tracked:', { category, action, label, value });
+        }
+
+        // Track outbound links
+        document.querySelectorAll('a[target="_blank"]').forEach(link => {
+            link.addEventListener('click', function() {
+                trackEvent('Outbound Link', 'click', this.href);
+            });
+        });
+
+        // Track form interactions
+        const form = document.getElementById('contact-form');
+        if (form) {
+            form.addEventListener('focusin', function(e) {
+                if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+                    trackEvent('Form', 'field_focus', e.target.name);
+                }
+            }, { once: true });
+        }
+
+        // Lazy load images if they exist
+        if ('loading' in HTMLImageElement.prototype) {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            images.forEach(img => {
+                img.src = img.dataset.src || img.src;
+            });
+        } else {
+            // Fallback for browsers that don't support lazy loading
+            const script = document.createElement('script');
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
+            document.body.appendChild(script);
+        }
+
+        // Print styles optimization
+        window.addEventListener('beforeprint', () => {
+            document.body.classList.add('print-mode');
+        });
+
+        window.addEventListener('afterprint', () => {
+            document.body.classList.remove('print-mode');
+        });
+
+        // Memory leak prevention
+        window.addEventListener('unload', () => {
+            // Clean up event listeners and timers
+            const timers = [];
+            timers.forEach(timer => clearTimeout(timer));
+        });
+
+        // Add smooth reveal animations
+        const revealElements = () => {
+            const reveals = document.querySelectorAll('.reveal');
+            reveals.forEach(element => {
+                const windowHeight = window.innerHeight;
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    element.classList.add('active');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', revealElements);
+        revealElements(); // Check on initial load
+    </script>
+
+    <!-- Additional CSS for animations and improvements -->
+    <style>
+        /* Smooth scrolling for all browsers */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #2563EB, #7C3AED);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, #1D4ED8, #6D28D9);
+        }
+
+        /* Dark mode scrollbar */
+        .dark ::-webkit-scrollbar-track {
+            background: #1F2937;
+        }
+
+        /* Focus visible for better accessibility */
+        *:focus-visible {
+            outline: 2px solid #2563EB;
+            outline-offset: 2px;
+        }
+
+        /* Skip to content link */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #2563EB;
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+            border-radius: 0 0 4px 0;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        /* Loading animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+
+        /* Reveal animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Print styles */
+        @media print {
+            .no-print,
+            nav,
+            footer,
+            #back-to-top,
+            #theme-toggle,
+            #mobile-menu-toggle {
+                display: none !important;
+            }
+
+            body {
+                font-size: 12pt;
+                line-height: 1.5;
+                color: black;
+                background: white;
+            }
+
+            .gradient-text {
+                color: #2563EB !important;
+                -webkit-text-fill-color: #2563EB !important;
+            }
+
+            a {
+                color: #2563EB !important;
+                text-decoration: underline;
+            }
+
+            .bg-gray-50,
+            .dark\:bg-gray-900 {
+                background: white !important;
+            }
+
+            section {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                page-break-after: avoid;
+                break-after: avoid;
+            }
+        }
+
+        /* Reduced motion for accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            .gradient-text {
+                background: none;
+                color: inherit;
+                -webkit-text-fill-color: inherit;
+                font-weight: bold;
+            }
+
+            button,
+            a {
+                text-decoration: underline;
+                font-weight: bold;
+            }
+        }
+
+        /* Loading skeleton animation */
+        @keyframes shimmer {
+            0% {
+                background-position: -1000px 0;
+            }
+            100% {
+                background-position: 1000px 0;
+            }
+        }
+
+        .skeleton {
+            background: linear-gradient(
+                90deg,
+                #f0f0f0 25%,
+                #e0e0e0 50%,
+                #f0f0f0 75%
+            );
+            background-size: 1000px 100%;
+            animation: shimmer 2s infinite;
+        }
+
+        .dark .skeleton {
+            background: linear-gradient(
+                90deg,
+                #374151 25%,
+                #4B5563 50%,
+                #374151 75%
+            );
+            background-size: 1000px 100%;
+        }
+
+        /* Improved focus styles for form elements */
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            ring: 2px;
+            ring-color: #2563EB;
+            border-color: transparent;
+        }
+
+        /* Button press effect */
+        button:active {
+            transform: scale(0.98);
+        }
+
+        /* Card hover effects */
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+                        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .dark .card-hover:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5),
+                        0 10px 10px -5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Gradient backgrounds */
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+        }
+
+        .bg-gradient-secondary {
+            background: linear-gradient(135deg, #7C3AED 0%, #F59E0B 100%);
+        }
+
+        /* Text selection colors */
+        ::selection {
+            background-color: #2563EB;
+            color: white;
+        }
+
+        ::-moz-selection {
+            background-color: #2563EB;
+            color: white;
+        }
+
+        /* Custom underline animation */
+        .link-underline {
+            position: relative;
+            text-decoration: none;
+        }
+
+        .link-underline::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #2563EB;
+            transition: width 0.3s ease;
+        }
+
+        .link-underline:hover::after {
+            width: 100%;
+        }
+
+        /* Responsive typography */
+        @media (max-width: 640px) {
+            html {
+                font-size: 14px;
+            }
+        }
+
+        @media (min-width: 641px) and (max-width: 1024px) {
+            html {
+                font-size: 15px;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            html {
+                font-size: 16px;
+            }
+        }
+    </style>
+</body>
+</html>
